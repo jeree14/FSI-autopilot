@@ -1,8 +1,7 @@
 import cv2
 import numpy as np
 
-video_path = "autopilot/Pra╠üctica Autopilot.mp4"
-cap = cv2.VideoCapture(video_path)
+cap = cv2.VideoCapture("autopilot/Pra╠üctica Autopilot.mp4")
 
 while True:
     ret, frame = cap.read()
